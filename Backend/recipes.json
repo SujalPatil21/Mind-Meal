@@ -89,14 +89,6 @@
     "healthy_alternative": "Add chickpeas for extra protein"
   },
   {
-    "name": "Egg Fried Rice",
-    "ingredients": ["rice", "egg", "carrot", "peas", "soy sauce"],
-    "steps": ["Cook rice", "Scramble eggs", "Stir fry with vegetables and rice", "Add soy sauce"],
-    "nutrition": {"calories": 400, "protein": 15, "carbs": 60, "fat": 12},
-    "type": "non-veg",
-    "healthy_alternative": "Use brown rice and less oil"
-  },
-  {
     "name": "Veggie Sandwich",
     "ingredients": ["bread", "lettuce", "tomato", "cheese", "cucumber"],
     "steps": ["Toast bread", "Add vegetables and cheese", "Serve"],
@@ -855,7 +847,250 @@
       "nutrition": {"calories": 220, "protein": 6, "carbs": 30, "fat": 10},
       "type": "veg",
       "healthy_alternative": "Use minimal olive oil"
-    }
+    },
+  
+  {
+    "name": "Paneer Makhani",
+    "ingredients": ["paneer", "cream", "butter", "tomato sauce", "ginger-garlic", "garam masala", "fenugreek"],
+    "steps": ["Cube paneer", "Prepare creamy tomato sauce", "Add paneer cubes", "Simmer for 10 minutes", "Serve with naan or rice"],
+    "nutrition": {"calories": 380, "protein": 20, "carbs": 15, "fat": 28},
+    "type": "veg",
+    "healthy_alternative": "Use low-fat cream and reduce butter"
+  },
+  {
+    "name": "Chicken Curry",
+    "ingredients": ["chicken", "onion", "tomato", "coconut milk", "ginger-garlic", "spices", "oil"],
+    "steps": ["Marinate chicken", "Sauté onion and ginger-garlic", "Add chicken and brown", "Add tomato and spices", "Add coconut milk", "Simmer for 30 minutes"],
+    "nutrition": {"calories": 360, "protein": 38, "carbs": 12, "fat": 18},
+    "type": "non-veg",
+    "healthy_alternative": "Use lite coconut milk"
+  },
+  {
+    "name": "Vegetable Korma",
+    "ingredients": ["mixed vegetables", "coconut milk", "yogurt", "ginger-garlic", "almonds", "cream", "spices"],
+    "steps": ["Toast almonds and grind", "Sauté onion", "Add vegetables", "Add yogurt and coconut milk", "Add almond paste", "Cook until tender"],
+    "nutrition": {"calories": 320, "protein": 10, "carbs": 28, "fat": 20},
+    "type": "veg",
+    "healthy_alternative": "Use low-fat yogurt"
+  },
+  {
+    "name": "Mutton Keema Pav",
+    "ingredients": ["mutton mince", "pav", "onion", "tomato", "ginger-garlic", "peas", "spices", "butter"],
+    "steps": ["Sauté onion", "Add ginger-garlic", "Add mutton mince", "Add tomato and spices", "Cook for 25 minutes", "Toast pav with butter", "Serve together"],
+    "nutrition": {"calories": 440, "protein": 32, "carbs": 48, "fat": 18},
+    "type": "non-veg",
+    "healthy_alternative": "Use lean mutton"
+  },
+  {
+    "name": "Kale Chips",
+    "ingredients": ["kale", "olive oil", "salt", "pepper", "garlic powder"],
+    "steps": ["Wash and dry kale", "Tear into pieces", "Toss with olive oil and spices", "Bake at 150°C for 15 minutes", "Serve crispy"],
+    "nutrition": {"calories": 120, "protein": 4, "carbs": 14, "fat": 6},
+    "type": "veg",
+    "healthy_alternative": "All ingredients are healthy"
+  },
+  {
+    "name": "Prawn Fry",
+    "ingredients": ["prawns", "turmeric", "chili powder", "ginger-garlic", "lemon", "oil", "salt"],
+    "steps": ["Clean prawns", "Marinate with spices", "Heat oil in pan", "Fry prawns until pink", "Add lemon juice", "Serve hot"],
+    "nutrition": {"calories": 240, "protein": 32, "carbs": 5, "fat": 11},
+    "type": "non-veg",
+    "healthy_alternative": "Use minimal oil"
+  },
+  {
+    "name": "Quinoa Salad",
+    "ingredients": ["quinoa", "cucumber", "cherry tomatoes", "bell peppers", "lemon juice", "olive oil", "herbs"],
+    "steps": ["Cook quinoa", "Cool completely", "Chop vegetables", "Mix with quinoa", "Dress with lemon and olive oil", "Serve chilled"],
+    "nutrition": {"calories": 200, "protein": 8, "carbs": 30, "fat": 6},
+    "type": "veg",
+    "healthy_alternative": "All ingredients are healthy"
+  },
+  {
+    "name": "Fish Amritsari",
+    "ingredients": ["fish fillets", "chickpea flour", "ginger-garlic paste", "lemon", "spices", "oil"],
+    "steps": ["Marinate fish with spices", "Make batter with chickpea flour", "Coat fish", "Deep fry until golden", "Serve with lemon chutney"],
+    "nutrition": {"calories": 320, "protein": 36, "carbs": 18, "fat": 13},
+    "type": "non-veg",
+    "healthy_alternative": "Bake instead of frying"
+  },
+  {
+    "name": "Broccoli Soup",
+    "ingredients": ["broccoli", "onion", "garlic", "vegetable broth", "cream", "butter", "salt", "pepper"],
+    "steps": ["Sauté onion and garlic", "Add broccoli and broth", "Simmer for 15 minutes", "Blend smooth", "Add cream", "Serve hot"],
+    "nutrition": {"calories": 180, "protein": 6, "carbs": 16, "fat": 10},
+    "type": "veg",
+    "healthy_alternative": "Use low-fat cream"
+  },
+  {
+    "name": "Mutton Rogan Josh",
+    "ingredients": ["mutton", "yogurt", "tomato", "onion", "ginger-garlic", "bay leaves", "cardamom", "oil"],
+    "steps": ["Marinate mutton", "Sauté onion until golden", "Add ginger-garlic", "Add mutton and brown", "Add yogurt and tomato", "Simmer for 50 minutes"],
+    "nutrition": {"calories": 380, "protein": 40, "carbs": 12, "fat": 20},
+    "type": "non-veg",
+    "healthy_alternative": "Use lean cuts"
+  },
+  {
+    "name": "Sweet Corn Soup",
+    "ingredients": ["sweet corn", "onion", "garlic", "vegetable broth", "cream", "butter", "salt", "pepper"],
+    "steps": ["Sauté onion and garlic", "Add corn and broth", "Simmer for 10 minutes", "Blend half of it", "Add cream", "Serve hot"],
+    "nutrition": {"calories": 220, "protein": 6, "carbs": 32, "fat": 8},
+    "type": "veg",
+    "healthy_alternative": "Use low-fat cream"
+  },
+  {
+    "name": "Crab Masala",
+    "ingredients": ["crab", "onion", "tomato", "coconut milk", "ginger-garlic", "spices", "oil"],
+    "steps": ["Sauté onion", "Add ginger-garlic", "Add tomato and spices", "Add crab", "Add coconut milk", "Simmer for 20 minutes"],
+    "nutrition": {"calories": 280, "protein": 28, "carbs": 10, "fat": 14},
+    "type": "non-veg",
+    "healthy_alternative": "Use lite coconut milk"
+  },
+  {
+    "name": "Beet and Carrot Salad",
+    "ingredients": ["beetroot", "carrot", "lemon juice", "olive oil", "salt", "pepper", "cumin"],
+    "steps": ["Boil beetroot and carrot", "Cool and cut into pieces", "Mix with lemon juice and olive oil", "Add cumin and salt", "Serve cold"],
+    "nutrition": {"calories": 140, "protein": 3, "carbs": 20, "fat": 5},
+    "type": "veg",
+    "healthy_alternative": "All ingredients are healthy"
+  },
+  {
+    "name": "Chicken Lollipop",
+    "ingredients": ["chicken drumsticks", "ginger-garlic paste", "soy sauce", "cornflour", "egg", "oil"],
+    "steps": ["Clean drumsticks", "Marinate with spices", "Coat with cornflour", "Deep fry until crispy", "Toss in sweet chili sauce", "Serve hot"],
+    "nutrition": {"calories": 340, "protein": 35, "carbs": 14, "fat": 16},
+    "type": "non-veg",
+    "healthy_alternative": "Bake instead of frying"
+  },
+  {
+    "name": "Lentil Soup",
+    "ingredients": ["mixed lentils", "onion", "garlic", "carrot", "celery", "vegetable broth", "cumin"],
+    "steps": ["Sauté onion, garlic and celery", "Add lentils and broth", "Add carrot", "Simmer for 30 minutes", "Add cumin", "Serve hot"],
+    "nutrition": {"calories": 200, "protein": 14, "carbs": 32, "fat": 2},
+    "type": "veg",
+    "healthy_alternative": "All ingredients are healthy"
+  },
+  {
+    "name": "Lamb Seekh Kebab",
+    "ingredients": ["lamb mince", "onion", "ginger-garlic", "green chili", "coriander", "egg", "breadcrumbs"],
+    "steps": ["Mix mince with spices", "Shape around skewers", "Grill or bake", "Cook until done", "Serve with mint chutney"],
+    "nutrition": {"calories": 320, "protein": 36, "carbs": 8, "fat": 16},
+    "type": "non-veg",
+    "healthy_alternative": "Grill instead of frying"
+  },
+  {
+    "name": "Avocado Toast",
+    "ingredients": ["bread", "avocado", "lemon juice", "salt", "pepper", "olive oil", "tomato"],
+    "steps": ["Toast bread", "Mash avocado with lemon", "Spread on toast", "Add salt and pepper", "Top with tomato", "Serve immediately"],
+    "nutrition": {"calories": 280, "protein": 8, "carbs": 32, "fat": 14},
+    "type": "veg",
+    "healthy_alternative": "Use whole wheat bread"
+  },
+  {
+    "name": "Shrimp Tikka Masala",
+    "ingredients": ["shrimp", "yogurt", "tomato sauce", "cream", "ginger-garlic", "spices", "lemon"],
+    "steps": ["Marinate shrimp", "Grill or bake", "Prepare creamy tomato sauce", "Add shrimp to sauce", "Simmer for 10 minutes", "Serve with rice"],
+    "nutrition": {"calories": 280, "protein": 30, "carbs": 12, "fat": 12},
+    "type": "non-veg",
+    "healthy_alternative": "Use low-fat cream"
+  },
+  {
+    "name": "Chickpea Curry",
+    "ingredients": ["chickpeas", "onion", "tomato", "ginger-garlic", "cumin", "coriander", "oil"],
+    "steps": ["Sauté onion", "Add ginger-garlic", "Add tomato", "Add chickpeas", "Add spices", "Simmer for 20 minutes"],
+    "nutrition": {"calories": 240, "protein": 10, "carbs": 38, "fat": 5},
+    "type": "veg",
+    "healthy_alternative": "Use minimal oil"
+  },
+  {
+    "name": "Beef Rendang",
+    "ingredients": ["beef", "coconut milk", "ginger-garlic paste", "red chili", "turmeric", "lemongrass", "oil"],
+    "steps": ["Sauté spice paste", "Add beef and brown", "Add coconut milk", "Simmer for 45 minutes", "Cook until dry and oily", "Serve hot"],
+    "nutrition": {"calories": 420, "protein": 40, "carbs": 10, "fat": 24},
+    "type": "non-veg",
+    "healthy_alternative": "Use lite coconut milk"
+  },
+  {
+    "name": "Spinach and Ricotta Pasta",
+    "ingredients": ["pasta", "spinach", "ricotta", "garlic", "lemon", "olive oil", "parmesan"],
+    "steps": ["Cook pasta", "Sauté garlic and spinach", "Mix with ricotta", "Toss with pasta", "Add lemon and olive oil", "Top with parmesan"],
+    "nutrition": {"calories": 380, "protein": 16, "carbs": 48, "fat": 14},
+    "type": "veg",
+    "healthy_alternative": "Use whole wheat pasta"
+  },
+  {
+    "name": "Duck Curry",
+    "ingredients": ["duck", "onion", "tomato", "coconut milk", "ginger-garlic", "spices", "oil"],
+    "steps": ["Cut duck into pieces", "Sauté onion", "Add duck and brown", "Add tomato and spices", "Add coconut milk", "Simmer for 60 minutes"],
+    "nutrition": {"calories": 480, "protein": 45, "carbs": 12, "fat": 26},
+    "type": "non-veg",
+    "healthy_alternative": "Remove skin before cooking"
+  },
+  {
+    "name": "Greek Salad",
+    "ingredients": ["cucumber", "tomato", "red onion", "feta cheese", "olives", "lemon juice", "olive oil"],
+    "steps": ["Chop vegetables", "Combine in bowl", "Add olives and feta", "Dress with lemon and olive oil", "Serve cold"],
+    "nutrition": {"calories": 200, "protein": 6, "carbs": 18, "fat": 12},
+    "type": "veg",
+    "healthy_alternative": "Use low-fat feta"
+  },
+  {
+    "name": "Pork Vindaloo",
+    "ingredients": ["pork", "vinegar", "ginger-garlic", "red chili", "tomato", "potatoes", "oil"],
+    "steps": ["Cut pork into cubes", "Marinate with vinegar and spices", "Sauté onion", "Add pork", "Add potatoes and tomato", "Simmer for 40 minutes"],
+    "nutrition": {"calories": 380, "protein": 38, "carbs": 18, "fat": 18},
+    "type": "non-veg",
+    "healthy_alternative": "Use lean pork"
+  },
+  {
+    "name": "Cottage Cheese Salad",
+    "ingredients": ["cottage cheese", "cucumber", "tomato", "carrot", "lemon juice", "salt", "pepper"],
+    "steps": ["Chop all vegetables", "Crumble cottage cheese", "Mix together", "Add lemon juice", "Season with salt and pepper", "Serve chilled"],
+    "nutrition": {"calories": 160, "protein": 18, "carbs": 12, "fat": 4},
+    "type": "veg",
+    "healthy_alternative": "All ingredients are healthy"
+  },
+  {
+    "name": "Fish Moilee",
+    "ingredients": ["fish fillets", "coconut milk", "turmeric", "curry leaves", "ginger", "green chili", "oil"],
+    "steps": ["Heat oil", "Add ginger and green chili", "Add fish", "Add coconut milk and turmeric", "Simmer for 12 minutes", "Serve with rice"],
+    "nutrition": {"calories": 260, "protein": 34, "carbs": 6, "fat": 11},
+    "type": "non-veg",
+    "healthy_alternative": "Use lite coconut milk"
+  },
+  {
+    "name": "Vegetable Fried Noodles",
+    "ingredients": ["noodles", "mixed vegetables", "soy sauce", "garlic", "ginger", "sesame oil", "egg"],
+    "steps": ["Cook noodles", "Cool completely", "Stir fry vegetables", "Add noodles", "Add soy sauce", "Serve hot"],
+    "nutrition": {"calories": 320, "protein": 10, "carbs": 48, "fat": 10},
+    "type": "veg",
+    "healthy_alternative": "Use low-sodium soy sauce"
+  },
+  {
+    "name": "Chicken Malai Kofta",
+    "ingredients": ["chicken mince", "cream", "paneer", "green chili", "coriander", "egg", "oil"],
+    "steps": ["Mix chicken with cream and paneer", "Shape into koftas", "Grill or fry", "Serve with tomato gravy", "Garnish with coriander"],
+    "nutrition": {"calories": 360, "protein": 32, "carbs": 10, "fat": 22},
+    "type": "non-veg",
+    "healthy_alternative": "Use low-fat cream"
+  },
+  {
+    "name": "Millet Salad",
+    "ingredients": ["millet", "bell peppers", "cucumber", "tomato", "lemon juice", "olive oil", "herbs"],
+    "steps": ["Cook millet", "Cool completely", "Chop vegetables", "Mix with millet", "Dress with lemon and olive oil", "Serve cold"],
+    "nutrition": {"calories": 240, "protein": 6, "carbs": 42, "fat": 5},
+    "type": "veg",
+    "healthy_alternative": "All ingredients are healthy"
+  },
+  {
+    "name": "Lobster Thermidor",
+    "ingredients": ["lobster", "butter", "onion", "mustard", "cream", "brandy", "cheese"],
+    "steps": ["Split and remove lobster meat", "Sauté onion and mushrooms", "Add lobster meat", "Add cream and mustard", "Fill shell and top with cheese", "Bake at 200°C for 10 minutes"],
+    "nutrition": {"calories": 420, "protein": 36, "carbs": 8, "fat": 28},
+    "type": "non-veg",
+    "healthy_alternative": "Use low-fat cream"
+}
+
+
 ]
 
 
