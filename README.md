@@ -50,7 +50,7 @@ https://sujalpatil21.github.io/Meal-Mind/
 
 ---
 
-## 🏛️ System Architecture
+## 🏛️ System Architectur
 
 ### **Frontend (HTML + CSS + Vanilla JS)**
 - Renders recipe cards  
