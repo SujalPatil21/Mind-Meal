@@ -4,7 +4,7 @@ MindMeal is an intelligent meal-planning web application that suggests recipes b
 It generates realistic food images using an AI image API, maintains a smart pantry, provides healthy alternatives, and lets you download grocery lists — all inside a clean, iOS-inspired UI.
 
 ---
-
+ 
 ## ▶️ Project Video - Click To Open
 
 [![Project Demo](Project.png)](https://www.youtube.com/watch?v=sTBTgqAxueU)
