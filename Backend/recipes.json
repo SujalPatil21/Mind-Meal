@@ -1,0 +1,862 @@
+[
+  {
+    "name": "Pasta",
+    "ingredients": ["pasta", "tomato", "cheese", "olive oil", "garlic"],
+    "steps": ["Boil pasta", "Prepare sauce with tomato and garlic", "Mix pasta and sauce", "Add cheese on top"],
+    "nutrition": {"calories": 400, "protein": 15, "carbs": 60, "fat": 12},
+    "type": "veg",
+    "healthy_alternative": "Use whole wheat pasta and low-fat cheese"
+  },
+  {
+    "name": "Chicken Curry",
+    "ingredients": ["chicken", "onion", "tomato", "spices", "garlic"],
+    "steps": ["Cook onion and garlic", "Add chicken", "Add spices and simmer", "Add tomato"],
+    "nutrition": {"calories": 500, "protein": 35, "carbs": 20, "fat": 25},
+    "type": "non-veg",
+    "healthy_alternative": "Use less oil and add vegetables"
+  },
+  {
+    "name": "Vegetable Stir Fry",
+    "ingredients": ["broccoli", "carrot", "capsicum", "soy sauce", "olive oil"],
+    "steps": ["Chop vegetables", "Stir fry in olive oil", "Add soy sauce"],
+    "nutrition": {"calories": 250, "protein": 8, "carbs": 30, "fat": 10},
+    "type": "veg",
+    "healthy_alternative": "Use less oil and add tofu for protein"
+  },
+  {
+    "name": "Grilled Salmon",
+    "ingredients": ["salmon", "lemon", "olive oil", "garlic", "salt"],
+    "steps": ["Marinate salmon with lemon, garlic, salt", "Grill for 10-12 minutes"],
+    "nutrition": {"calories": 350, "protein": 30, "carbs": 0, "fat": 20},
+    "type": "non-veg",
+    "healthy_alternative": "Serve with steamed vegetables instead of rice"
+  },
+  {
+    "name": "Omelette",
+    "ingredients": ["eggs", "onion", "tomato", "bell pepper", "cheese"],
+    "steps": ["Beat eggs", "Cook vegetables in pan", "Add eggs", "Sprinkle cheese"],
+    "nutrition": {"calories": 300, "protein": 18, "carbs": 5, "fat": 22},
+    "type": "non-veg",
+    "healthy_alternative": "Use egg whites and low-fat cheese"
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "ingredients": ["paneer", "butter", "tomato", "cream", "spices"],
+    "steps": ["Cook tomato with spices", "Add butter and cream", "Add paneer cubes"],
+    "nutrition": {"calories": 450, "protein": 20, "carbs": 15, "fat": 35},
+    "type": "veg",
+    "healthy_alternative": "Use less butter and cream"
+  },
+  {
+    "name": "Chicken Salad",
+    "ingredients": ["chicken", "lettuce", "tomato", "cucumber", "olive oil"],
+    "steps": ["Cook chicken", "Chop vegetables", "Mix with olive oil and seasoning"],
+    "nutrition": {"calories": 350, "protein": 30, "carbs": 8, "fat": 18},
+    "type": "non-veg",
+    "healthy_alternative": "Use grilled chicken and minimal dressing"
+  },
+  {
+    "name": "Vegetable Soup",
+    "ingredients": ["carrot", "beans", "peas", "onion", "spices"],
+    "steps": ["Chop vegetables", "Boil with water and spices"],
+    "nutrition": {"calories": 150, "protein": 5, "carbs": 20, "fat": 5},
+    "type": "veg",
+    "healthy_alternative": "Use less salt and no cream"
+  },
+  {
+    "name": "Beef Stir Fry",
+    "ingredients": ["beef", "onion", "capsicum", "soy sauce", "garlic"],
+    "steps": ["Slice beef", "Stir fry with vegetables", "Add soy sauce"],
+    "nutrition": {"calories": 450, "protein": 40, "carbs": 10, "fat": 25},
+    "type": "non-veg",
+    "healthy_alternative": "Use lean beef and less oil"
+  },
+ 
+  {
+    "name": "Grilled Chicken",
+    "ingredients": ["chicken", "lemon", "garlic", "olive oil", "spices"],
+    "steps": ["Marinate chicken", "Grill for 15 minutes"],
+    "nutrition": {"calories": 400, "protein": 35, "carbs": 0, "fat": 22},
+    "type": "non-veg",
+    "healthy_alternative": "Use skinless chicken breast"
+  },
+  {
+    "name": "Quinoa Salad",
+    "ingredients": ["quinoa", "tomato", "cucumber", "olive oil", "lemon"],
+    "steps": ["Cook quinoa", "Chop vegetables", "Mix with olive oil and lemon"],
+    "nutrition": {"calories": 300, "protein": 12, "carbs": 40, "fat": 10},
+    "type": "veg",
+    "healthy_alternative": "Add chickpeas for extra protein"
+  },
+  {
+    "name": "Egg Fried Rice",
+    "ingredients": ["rice", "egg", "carrot", "peas", "soy sauce"],
+    "steps": ["Cook rice", "Scramble eggs", "Stir fry with vegetables and rice", "Add soy sauce"],
+    "nutrition": {"calories": 400, "protein": 15, "carbs": 60, "fat": 12},
+    "type": "non-veg",
+    "healthy_alternative": "Use brown rice and less oil"
+  },
+  {
+    "name": "Veggie Sandwich",
+    "ingredients": ["bread", "lettuce", "tomato", "cheese", "cucumber"],
+    "steps": ["Toast bread", "Add vegetables and cheese", "Serve"],
+    "nutrition": {"calories": 250, "protein": 10, "carbs": 35, "fat": 8},
+    "type": "veg",
+    "healthy_alternative": "Use whole grain bread and low-fat cheese"
+  },
+  {
+    "name": "Shrimp Curry",
+    "ingredients": ["shrimp", "onion", "tomato", "coconut milk", "spices"],
+    "steps": ["Cook onion and spices", "Add shrimp and coconut milk", "Simmer for 10 minutes"],
+    "nutrition": {"calories": 400, "protein": 30, "carbs": 10, "fat": 25},
+    "type": "non-veg",
+    "healthy_alternative": "Use less coconut milk and add vegetables"
+  },
+  {
+    "name": "Chana Masala",
+    "ingredients": ["chickpeas", "onion", "tomato", "spices", "oil"],
+    "steps": ["Cook onion with spices", "Add chickpeas and tomato", "Simmer 15 minutes"],
+    "nutrition": {"calories": 350, "protein": 15, "carbs": 45, "fat": 10},
+    "type": "veg",
+    "healthy_alternative": "Use minimal oil"
+  },
+  {
+    "name": "Veg Biryani",
+    "ingredients": ["rice", "carrot", "peas", "spices", "yogurt"],
+    "steps": ["Cook rice", "Prepare vegetable masala", "Mix with rice and yogurt"],
+    "nutrition": {"calories": 400, "protein": 12, "carbs": 70, "fat": 12},
+    "type": "veg",
+    "healthy_alternative": "Use brown rice and less oil"
+  },
+  {
+    "name": "Fish Tikka",
+    "ingredients": ["fish", "yogurt", "spices", "lemon", "garlic"],
+    "steps": ["Marinate fish in yogurt and spices", "Grill for 10 minutes"],
+    "nutrition": {"calories": 350, "protein": 30, "carbs": 0, "fat": 18},
+    "type": "non-veg",
+    "healthy_alternative": "Use less oil and serve with salad"
+  },
+  {
+    "name": "Vegetable Pulao",
+    "ingredients": ["rice", "carrot", "beans", "peas", "spices"],
+    "steps": ["Cook rice with spices", "Add vegetables and cook together"],
+    "nutrition": {"calories": 380, "protein": 10, "carbs": 65, "fat": 10},
+    "type": "veg",
+    "healthy_alternative": "Use less oil and brown rice"
+  },
+  {
+    "name": "Mushroom Risotto",
+    "ingredients": ["rice", "mushrooms", "onion", "garlic", "cheese", "olive oil"],
+    "steps": ["Cook onion and garlic", "Add mushrooms and sauté", "Add rice gradually with broth", "Stir in cheese and serve"],
+    "nutrition": {"calories": 420, "protein": 12, "carbs": 60, "fat": 15},
+    "type": "veg",
+    "healthy_alternative": "Use low-fat cheese and less oil"
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "ingredients": ["spaghetti", "minced beef", "tomato", "onion", "garlic", "olive oil", "spices"],
+    "steps": ["Cook spaghetti", "Sauté onion and garlic", "Cook minced beef", "Add tomato and spices", "Mix with spaghetti and serve"],
+    "nutrition": {"calories": 550, "protein": 30, "carbs": 70, "fat": 20},
+    "type": "non-veg",
+    "healthy_alternative": "Use lean beef and whole wheat spaghetti"
+  },
+  {
+    "name": "Greek Salad",
+    "ingredients": ["cucumber", "tomato", "feta cheese", "olives", "olive oil", "onion"],
+    "steps": ["Chop vegetables", "Mix with feta and olives", "Drizzle olive oil and serve"],
+    "nutrition": {"calories": 220, "protein": 8, "carbs": 10, "fat": 18},
+    "type": "veg",
+    "healthy_alternative": "Use less olive oil and low-fat feta"
+  },
+  {
+    "name": "Butter Chicken",
+    "ingredients": ["chicken", "butter", "tomato", "cream", "spices"],
+    "steps": ["Cook chicken with spices", "Prepare tomato and cream sauce", "Combine and simmer", "Serve hot"],
+    "nutrition": {"calories": 500, "protein": 35, "carbs": 10, "fat": 35},
+    "type": "non-veg",
+    "healthy_alternative": "Use less butter and light cream"
+  },
+  {
+    "name": "Vegetable Korma",
+    "ingredients": ["carrot", "peas", "capsicum", "onion", "cream", "spices"],
+    "steps": ["Sauté vegetables", "Add spices and cream", "Simmer and serve with rice"],
+    "nutrition": {"calories": 350, "protein": 8, "carbs": 30, "fat": 20},
+    "type": "veg",
+    "healthy_alternative": "Use less cream and add tofu for protein"
+  },
+  {
+    "name": "Tuna Sandwich",
+    "ingredients": ["bread", "tuna", "mayonnaise", "lettuce", "tomato"],
+    "steps": ["Mix tuna with mayonnaise", "Assemble sandwich with lettuce and tomato", "Serve"],
+    "nutrition": {"calories": 300, "protein": 20, "carbs": 30, "fat": 12},
+    "type": "non-veg",
+    "healthy_alternative": "Use whole grain bread and low-fat mayonnaise"
+  },
+  {
+    "name": "Pumpkin Soup",
+    "ingredients": ["pumpkin", "onion", "garlic", "cream", "spices", "vegetable broth"],
+    "steps": ["Sauté onion and garlic", "Add pumpkin and broth", "Blend and add cream", "Serve hot"],
+    "nutrition": {"calories": 200, "protein": 4, "carbs": 25, "fat": 10},
+    "type": "veg",
+    "healthy_alternative": "Use low-fat cream or skip cream"
+  },
+  {
+    "name": "Lemon Garlic Shrimp",
+    "ingredients": ["shrimp", "garlic", "lemon", "olive oil", "parsley"],
+    "steps": ["Sauté garlic in olive oil", "Add shrimp and cook", "Squeeze lemon and garnish with parsley"],
+    "nutrition": {"calories": 250, "protein": 30, "carbs": 5, "fat": 12},
+    "type": "non-veg",
+    "healthy_alternative": "Use less olive oil and serve with steamed veggies"
+  },
+  {
+    "name": "Spinach Paneer Curry",
+    "ingredients": ["spinach", "paneer", "onion", "tomato", "spices", "cream"],
+    "steps": ["Cook onion and tomato", "Add spinach and spices", "Add paneer and cream", "Simmer and serve"],
+    "nutrition": {"calories": 400, "protein": 20, "carbs": 15, "fat": 28},
+    "type": "veg",
+    "healthy_alternative": "Use low-fat paneer and less cream"
+  },
+ 
+   {
+    "name": "Aloo Gobi",
+    "ingredients": ["potato", "cauliflower", "onion", "tomato", "spices"],
+    "steps": ["Chop vegetables", "Sauté onion and spices", "Add potato and cauliflower", "Cook until tender"],
+    "nutrition": {"calories": 300, "protein": 6, "carbs": 45, "fat": 12},
+    "type": "veg",
+    "healthy_alternative": "Use less oil and add peas for extra protein"
+  },
+  {
+    "name": "Beef Tacos",
+    "ingredients": ["beef", "taco shells", "lettuce", "tomato", "cheese", "spices"],
+    "steps": ["Cook beef with spices", "Prepare taco shells", "Assemble tacos with beef, lettuce, tomato, and cheese"],
+    "nutrition": {"calories": 450, "protein": 30, "carbs": 35, "fat": 22},
+    "type": "non-veg",
+    "healthy_alternative": "Use lean beef and whole wheat taco shells"
+  },
+  {
+    "name": "Vegetable Lasagna",
+    "ingredients": ["lasagna sheets", "zucchini", "tomato", "spinach", "cheese", "bechamel sauce"],
+    "steps": ["Prepare vegetables", "Layer lasagna sheets with vegetables and sauce", "Bake for 40 minutes"],
+    "nutrition": {"calories": 500, "protein": 20, "carbs": 60, "fat": 22},
+    "type": "veg",
+    "healthy_alternative": "Use low-fat cheese and whole wheat sheets"
+  },
+  {
+    "name": "Grilled Fish",
+    "ingredients": ["fish", "lemon", "garlic", "olive oil", "spices"],
+    "steps": ["Marinate fish with lemon, garlic, and spices", "Grill for 10-12 minutes", "Serve hot"],
+    "nutrition": {"calories": 350, "protein": 30, "carbs": 0, "fat": 18},
+    "type": "non-veg",
+    "healthy_alternative": "Serve with steamed vegetables instead of rice"
+  },
+  {
+    "name": "Minestrone Soup",
+    "ingredients": ["carrot", "beans", "tomato", "pasta", "vegetable broth", "onion"],
+    "steps": ["Chop vegetables", "Cook vegetables in broth", "Add pasta and simmer", "Serve hot"],
+    "nutrition": {"calories": 200, "protein": 8, "carbs": 30, "fat": 5},
+    "type": "veg",
+    "healthy_alternative": "Use whole wheat pasta"
+  },
+  {
+    "name": "Chicken Quesadilla",
+    "ingredients": ["chicken", "cheese", "tortilla", "onion", "bell pepper"],
+    "steps": ["Cook chicken and vegetables", "Place chicken and cheese in tortilla", "Cook until golden brown", "Serve hot"],
+    "nutrition": {"calories": 450, "protein": 30, "carbs": 35, "fat": 20},
+    "type": "non-veg",
+    "healthy_alternative": "Use whole wheat tortilla and low-fat cheese"
+  },
+  {
+    "name": "Caprese Salad",
+    "ingredients": ["tomato", "mozzarella", "basil", "olive oil", "balsamic vinegar"],
+    "steps": ["Slice tomato and mozzarella", "Layer with basil leaves", "Drizzle olive oil and balsamic vinegar"],
+    "nutrition": {"calories": 220, "protein": 10, "carbs": 5, "fat": 18},
+    "type": "veg",
+    "healthy_alternative": "Use less olive oil"
+  },
+  {
+    "name": "Shrimp Fried Rice",
+    "ingredients": ["rice", "shrimp", "egg", "peas", "carrot", "soy sauce"],
+    "steps": ["Cook rice", "Scramble eggs", "Stir fry shrimp and vegetables", "Mix with rice and soy sauce"],
+    "nutrition": {"calories": 450, "protein": 30, "carbs": 60, "fat": 12},
+    "type": "non-veg",
+    "healthy_alternative": "Use brown rice and less oil"
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "ingredients": ["bell peppers", "rice", "vegetables", "cheese", "spices"],
+    "steps": ["Prepare rice and vegetables", "Stuff bell peppers with mixture", "Top with cheese and bake for 20 minutes"],
+    "nutrition": {"calories": 350, "protein": 12, "carbs": 45, "fat": 15},
+    "type": "veg",
+    "healthy_alternative": "Use less cheese and brown rice"
+  },
+  {
+    "name": "Chicken Noodle Soup",
+    "ingredients": ["chicken", "noodles", "carrot", "celery", "onion", "chicken broth"],
+    "steps": ["Cook chicken in broth", "Add vegetables and noodles", "Simmer until cooked"],
+    "nutrition": {"calories": 300, "protein": 25, "carbs": 30, "fat": 10},
+    "type": "non-veg",
+    "healthy_alternative": "Use whole wheat noodles and less oil"
+  },
+   {
+    "name": "Avocado Toast",
+    "ingredients": ["bread", "avocado", "lemon", "salt", "pepper"],
+    "steps": ["Toast bread", "Mash avocado with lemon, salt, and pepper", "Spread on toast and serve"],
+    "nutrition": {"calories": 220, "protein": 5, "carbs": 25, "fat": 12},
+    "type": "veg",
+    "healthy_alternative": "Use whole grain bread and less salt"
+  },
+  {
+    "name": "Beef Tacos",
+    "ingredients": ["taco shells", "beef", "onion", "tomato", "lettuce", "cheese"],
+    "steps": ["Cook beef with onion and spices", "Assemble taco with beef, veggies, and cheese", "Serve"],
+    "nutrition": {"calories": 450, "protein": 25, "carbs": 30, "fat": 25},
+    "type": "non-veg",
+    "healthy_alternative": "Use lean beef and whole wheat taco shells"
+  },
+  {
+    "name": "Caprese Salad",
+    "ingredients": ["tomato", "mozzarella", "basil", "olive oil", "balsamic vinegar"],
+    "steps": ["Slice tomato and mozzarella", "Layer with basil", "Drizzle olive oil and balsamic vinegar", "Serve"],
+    "nutrition": {"calories": 180, "protein": 8, "carbs": 6, "fat": 15},
+    "type": "veg",
+    "healthy_alternative": "Use less olive oil"
+  },
+  {
+    "name": "Grilled Lamb Chops",
+    "ingredients": ["lamb chops", "garlic", "rosemary", "olive oil", "salt", "pepper"],
+    "steps": ["Marinate lamb with garlic, rosemary, salt, and pepper", "Grill for 10-12 minutes", "Serve hot"],
+    "nutrition": {"calories": 500, "protein": 40, "carbs": 0, "fat": 35},
+    "type": "non-veg",
+    "healthy_alternative": "Trim excess fat before cooking"
+  },
+  {
+    "name": "Vegetable Lasagna",
+    "ingredients": ["lasagna sheets", "tomato sauce", "zucchini", "spinach", "cheese"],
+    "steps": ["Layer lasagna sheets with sauce, vegetables, and cheese", "Bake for 35-40 minutes", "Serve hot"],
+    "nutrition": {"calories": 400, "protein": 15, "carbs": 50, "fat": 15},
+    "type": "veg",
+    "healthy_alternative": "Use low-fat cheese and whole wheat sheets"
+  },
+  {
+    "name": "Prawn Stir Fry",
+    "ingredients": ["prawns", "bell pepper", "onion", "garlic", "soy sauce", "olive oil"],
+    "steps": ["Sauté garlic and onion", "Add prawns and vegetables", "Add soy sauce and cook until done", "Serve"],
+    "nutrition": {"calories": 350, "protein": 30, "carbs": 10, "fat": 18},
+    "type": "non-veg",
+    "healthy_alternative": "Use less oil and serve with brown rice"
+  },
+  {
+    "name": "Falafel Wrap",
+    "ingredients": ["falafel", "tortilla", "lettuce", "tomato", "yogurt sauce"],
+    "steps": ["Cook falafel", "Assemble wrap with vegetables and sauce", "Serve"],
+    "nutrition": {"calories": 350, "protein": 12, "carbs": 40, "fat": 15},
+    "type": "veg",
+    "healthy_alternative": "Use whole wheat tortilla and light sauce"
+  },
+  {
+    "name": "Chicken Quesadilla",
+    "ingredients": ["tortilla", "chicken", "cheese", "bell pepper", "onion"],
+    "steps": ["Cook chicken with vegetables", "Place filling in tortilla with cheese", "Grill and serve"],
+    "nutrition": {"calories": 450, "protein": 30, "carbs": 35, "fat": 20},
+    "type": "non-veg",
+    "healthy_alternative": "Use low-fat cheese and whole wheat tortilla"
+  },
+  {
+    "name": "Sweet Potato Fries",
+    "ingredients": ["sweet potato", "olive oil", "salt", "pepper"],
+    "steps": ["Cut sweet potatoes into fries", "Toss with olive oil, salt, and pepper", "Bake for 20-25 minutes", "Serve"],
+    "nutrition": {"calories": 200, "protein": 2, "carbs": 30, "fat": 8},
+    "type": "veg",
+    "healthy_alternative": "Use minimal oil and bake instead of fry"
+  },
+  {
+    "name": "Salmon Teriyaki",
+    "ingredients": ["salmon", "soy sauce", "honey", "garlic", "ginger"],
+    "steps": ["Marinate salmon with sauce, garlic, and ginger", "Grill for 10-12 minutes", "Serve with vegetables"],
+    "nutrition": {"calories": 400, "protein": 35, "carbs": 10, "fat": 20},
+    "type": "non-veg",
+    "healthy_alternative": "Use less honey and serve with steamed vegetables"},
+    {
+      "name": "Pasta",
+      "ingredients": ["pasta", "tomato", "cheese", "olive oil", "garlic"],
+      "steps": ["Boil pasta", "Prepare sauce with tomato and garlic", "Mix pasta and sauce", "Add cheese on top"],
+      "nutrition": {"calories": 400, "protein": 15, "carbs": 60, "fat": 12},
+      "type": "veg",
+      "healthy_alternative": "Use whole wheat pasta and low-fat cheese"
+    },
+    {
+      "name": "Chicken Curry",
+      "ingredients": ["chicken", "onion", "tomato", "spices", "garlic"],
+      "steps": ["Cook onion and garlic", "Add chicken", "Add spices and simmer", "Add tomato"],
+      "nutrition": {"calories": 500, "protein": 35, "carbs": 20, "fat": 25},
+      "type": "non-veg",
+      "healthy_alternative": "Use less oil and add vegetables"
+    },
+    {
+      "name": "Vegetable Stir Fry",
+      "ingredients": ["broccoli", "carrot", "capsicum", "soy sauce", "olive oil"],
+      "steps": ["Chop vegetables", "Stir fry in olive oil", "Add soy sauce"],
+      "nutrition": {"calories": 250, "protein": 8, "carbs": 30, "fat": 10},
+      "type": "veg",
+      "healthy_alternative": "Use less oil and add tofu for protein"
+    },
+    {
+      "name": "Grilled Salmon",
+      "ingredients": ["salmon", "lemon", "olive oil", "garlic", "salt"],
+      "steps": ["Marinate salmon with lemon, garlic, salt", "Grill for 10-12 minutes"],
+      "nutrition": {"calories": 350, "protein": 30, "carbs": 0, "fat": 20},
+      "type": "non-veg",
+      "healthy_alternative": "Serve with steamed vegetables instead of rice"
+    },
+    {
+      "name": "Omelette",
+      "ingredients": ["eggs", "onion", "tomato", "bell pepper", "cheese"],
+      "steps": ["Beat eggs", "Cook vegetables in pan", "Add eggs", "Sprinkle cheese"],
+      "nutrition": {"calories": 300, "protein": 18, "carbs": 5, "fat": 22},
+      "type": "non-veg",
+      "healthy_alternative": "Use egg whites and low-fat cheese"
+    },
+    {
+      "name": "Paneer Butter Masala",
+      "ingredients": ["paneer", "butter", "tomato", "cream", "spices"],
+      "steps": ["Cook tomato with spices", "Add butter and cream", "Add paneer cubes"],
+      "nutrition": {"calories": 450, "protein": 20, "carbs": 15, "fat": 35},
+      "type": "veg",
+      "healthy_alternative": "Use less butter and cream"
+    },
+    {
+      "name": "Chicken Salad",
+      "ingredients": ["chicken", "lettuce", "tomato", "cucumber", "olive oil"],
+      "steps": ["Cook chicken", "Chop vegetables", "Mix with olive oil and seasoning"],
+      "nutrition": {"calories": 350, "protein": 30, "carbs": 8, "fat": 18},
+      "type": "non-veg",
+      "healthy_alternative": "Use grilled chicken and minimal dressing"
+    },
+    {
+      "name": "Vegetable Soup",
+      "ingredients": ["carrot", "beans", "peas", "onion", "spices"],
+      "steps": ["Chop vegetables", "Boil with water and spices"],
+      "nutrition": {"calories": 150, "protein": 5, "carbs": 20, "fat": 5},
+      "type": "veg",
+      "healthy_alternative": "Use less salt and no cream"
+    },
+    {
+      "name": "Beef Stir Fry",
+      "ingredients": ["beef", "onion", "capsicum", "soy sauce", "garlic"],
+      "steps": ["Slice beef", "Stir fry with vegetables", "Add soy sauce"],
+      "nutrition": {"calories": 450, "protein": 40, "carbs": 10, "fat": 25},
+      "type": "non-veg",
+      "healthy_alternative": "Use lean beef and less oil"
+    },
+    {
+      "name": "Masala Dosa",
+      "ingredients": ["rice", "lentils", "potato", "spices", "oil"],
+      "steps": ["Prepare dosa batter", "Cook potato masala", "Make dosa with filling"],
+      "nutrition": {"calories": 350, "protein": 10, "carbs": 55, "fat": 10},
+      "type": "veg",
+      "healthy_alternative": "Use less oil and whole grain dosa"
+    },
+    {
+      "name": "Grilled Chicken",
+      "ingredients": ["chicken", "lemon", "garlic", "olive oil", "spices"],
+      "steps": ["Marinate chicken", "Grill for 15 minutes"],
+      "nutrition": {"calories": 400, "protein": 35, "carbs": 0, "fat": 22},
+      "type": "non-veg",
+      "healthy_alternative": "Use skinless chicken breast"
+    },
+    {
+      "name": "Quinoa Salad",
+      "ingredients": ["quinoa", "tomato", "cucumber", "olive oil", "lemon"],
+      "steps": ["Cook quinoa", "Chop vegetables", "Mix with olive oil and lemon"],
+      "nutrition": {"calories": 300, "protein": 12, "carbs": 40, "fat": 10},
+      "type": "veg",
+      "healthy_alternative": "Add chickpeas for extra protein"
+    },
+    {
+      "name": "Egg Fried Rice",
+      "ingredients": ["rice", "egg", "carrot", "peas", "soy sauce"],
+      "steps": ["Cook rice", "Scramble eggs", "Stir fry with vegetables and rice", "Add soy sauce"],
+      "nutrition": {"calories": 400, "protein": 15, "carbs": 60, "fat": 12},
+      "type": "non-veg",
+      "healthy_alternative": "Use brown rice and less oil"
+    },
+    {
+      "name": "Veggie Sandwich",
+      "ingredients": ["bread", "lettuce", "tomato", "cheese", "cucumber"],
+      "steps": ["Toast bread", "Add vegetables and cheese", "Serve"],
+      "nutrition": {"calories": 250, "protein": 10, "carbs": 35, "fat": 8},
+      "type": "veg",
+      "healthy_alternative": "Use whole grain bread and low-fat cheese"
+    },
+    {
+      "name": "Shrimp Curry",
+      "ingredients": ["shrimp", "onion", "tomato", "coconut milk", "spices"],
+      "steps": ["Cook onion and spices", "Add shrimp and coconut milk", "Simmer for 10 minutes"],
+      "nutrition": {"calories": 400, "protein": 30, "carbs": 10, "fat": 25},
+      "type": "non-veg",
+      "healthy_alternative": "Use less coconut milk and add vegetables"
+    },
+    {
+      "name": "Chana Masala",
+      "ingredients": ["chickpeas", "onion", "tomato", "spices", "oil"],
+      "steps": ["Cook onion with spices", "Add chickpeas and tomato", "Simmer 15 minutes"],
+      "nutrition": {"calories": 350, "protein": 15, "carbs": 45, "fat": 10},
+      "type": "veg",
+      "healthy_alternative": "Use minimal oil"
+    },
+    {
+      "name": "Veg Biryani",
+      "ingredients": ["rice", "carrot", "peas", "spices", "yogurt"],
+      "steps": ["Cook rice", "Prepare vegetable masala", "Mix with rice and yogurt"],
+      "nutrition": {"calories": 400, "protein": 12, "carbs": 70, "fat": 12},
+      "type": "veg",
+      "healthy_alternative": "Use brown rice and less oil"
+    },
+    {
+      "name": "Fish Tikka",
+      "ingredients": ["fish", "yogurt", "spices", "lemon", "garlic"],
+      "steps": ["Marinate fish in yogurt and spices", "Grill for 10 minutes"],
+      "nutrition": {"calories": 350, "protein": 30, "carbs": 0, "fat": 18},
+      "type": "non-veg",
+      "healthy_alternative": "Use less oil and serve with salad"
+    },
+    {
+      "name": "Vegetable Pulao",
+      "ingredients": ["rice", "carrot", "beans", "peas", "spices"],
+      "steps": ["Cook rice with spices", "Add vegetables and cook together"],
+      "nutrition": {"calories": 380, "protein": 10, "carbs": 65, "fat": 10},
+      "type": "veg",
+      "healthy_alternative": "Use less oil and brown rice"
+    },
+    {
+      "name": "Mushroom Risotto",
+      "ingredients": ["rice", "mushrooms", "onion", "garlic", "cheese", "olive oil"],
+      "steps": ["Cook onion and garlic", "Add mushrooms and sauté", "Add rice gradually with broth", "Stir in cheese and serve"],
+      "nutrition": {"calories": 420, "protein": 12, "carbs": 60, "fat": 15},
+      "type": "veg",
+      "healthy_alternative": "Use low-fat cheese and less oil"
+    },
+    {
+      "name": "Spaghetti Bolognese",
+      "ingredients": ["spaghetti", "minced beef", "tomato", "onion", "garlic", "olive oil", "spices"],
+      "steps": ["Cook spaghetti", "Sauté onion and garlic", "Cook minced beef", "Add tomato and spices", "Mix with spaghetti and serve"],
+      "nutrition": {"calories": 550, "protein": 30, "carbs": 70, "fat": 20},
+      "type": "non-veg",
+      "healthy_alternative": "Use lean beef and whole wheat spaghetti"
+    },
+    {
+      "name": "Greek Salad",
+      "ingredients": ["cucumber", "tomato", "feta cheese", "olives", "olive oil", "onion"],
+      "steps": ["Chop vegetables", "Mix with feta and olives", "Drizzle olive oil and serve"],
+      "nutrition": {"calories": 220, "protein": 8, "carbs": 10, "fat": 18},
+      "type": "veg",
+      "healthy_alternative": "Use less olive oil and low-fat feta"
+    },
+    {
+      "name": "Butter Chicken",
+      "ingredients": ["chicken", "butter", "tomato", "cream", "spices"],
+      "steps": ["Cook chicken with spices", "Prepare tomato and cream sauce", "Combine and simmer", "Serve hot"],
+      "nutrition": {"calories": 500, "protein": 35, "carbs": 10, "fat": 35},
+      "type": "non-veg",
+      "healthy_alternative": "Use less butter and light cream"
+    },
+    {
+      "name": "Vegetable Korma",
+      "ingredients": ["carrot", "peas", "capsicum", "onion", "cream", "spices"],
+      "steps": ["Sauté vegetables", "Add spices and cream", "Simmer and serve with rice"],
+      "nutrition": {"calories": 350, "protein": 8, "carbs": 30, "fat": 20},
+      "type": "veg",
+      "healthy_alternative": "Use less cream and add tofu for protein"
+    },
+    {
+      "name": "Tuna Sandwich",
+      "ingredients": ["bread", "tuna", "mayonnaise", "lettuce", "tomato"],
+      "steps": ["Mix tuna with mayonnaise", "Assemble sandwich with lettuce and tomato", "Serve"],
+      "nutrition": {"calories": 300, "protein": 20, "carbs": 30, "fat": 12},
+      "type": "non-veg",
+      "healthy_alternative": "Use whole grain bread and low-fat mayonnaise"
+    },
+    {
+      "name": "Pumpkin Soup",
+      "ingredients": ["pumpkin", "onion", "garlic", "cream", "spices", "vegetable broth"],
+      "steps": ["Sauté onion and garlic", "Add pumpkin and broth", "Blend and add cream", "Serve hot"],
+      "nutrition": {"calories": 200, "protein": 4, "carbs": 25, "fat": 10},
+      "type": "veg",
+      "healthy_alternative": "Use low-fat cream or skip cream"
+    },
+    {
+      "name": "Lemon Garlic Shrimp",
+      "ingredients": ["shrimp", "garlic", "lemon", "olive oil", "parsley"],
+      "steps": ["Sauté garlic in olive oil", "Add shrimp and cook", "Squeeze lemon and garnish with parsley"],
+      "nutrition": {"calories": 250, "protein": 30, "carbs": 5, "fat": 12},
+      "type": "non-veg",
+      "healthy_alternative": "Use less olive oil and serve with steamed veggies"
+    },
+    {
+      "name": "Spinach Paneer Curry",
+      "ingredients": ["spinach", "paneer", "onion", "tomato", "spices", "cream"],
+      "steps": ["Cook onion and tomato", "Add spinach and spices", "Add paneer and cream", "Simmer and serve"],
+      "nutrition": {"calories": 400, "protein": 20, "carbs": 15, "fat": 28},
+      "type": "veg",
+      "healthy_alternative": "Use low-fat paneer and less cream"
+    },
+    {
+      "name": "Chicken Fried Rice",
+      "ingredients": ["rice", "chicken", "egg", "carrot", "peas", "soy sauce"],
+      "steps": ["Cook rice", "Scramble eggs", "Sauté chicken and vegetables", "Mix with rice and soy sauce"],
+      "nutrition": {"calories": 500, "protein": 35, "carbs": 60, "fat": 15},
+      "type": "non-veg",
+      "healthy_alternative": "Use brown rice and less oil"
+    },
+    {
+      "name": "Aloo Gobi",
+      "ingredients": ["potato", "cauliflower", "onion", "tomato", "spices"],
+      "steps": ["Chop vegetables", "Sauté onion and spices", "Add potato and cauliflower", "Cook until tender"],
+      "nutrition": {"calories": 300, "protein": 6, "carbs": 45, "fat": 12},
+      "type": "veg",
+      "healthy_alternative": "Use less oil and add peas for extra protein"
+    },
+    {
+      "name": "Beef Tacos",
+      "ingredients": ["beef", "taco shells", "lettuce", "tomato", "cheese", "spices"],
+      "steps": ["Cook beef with spices", "Prepare taco shells", "Assemble tacos with beef, lettuce, tomato, and cheese"],
+      "nutrition": {"calories": 450, "protein": 30, "carbs": 35, "fat": 22},
+      "type": "non-veg",
+      "healthy_alternative": "Use lean beef and whole wheat taco shells"
+    },
+    {
+      "name": "Vegetable Lasagna",
+      "ingredients": ["lasagna sheets", "zucchini", "tomato", "spinach", "cheese", "bechamel sauce"],
+      "steps": ["Prepare vegetables", "Layer lasagna sheets with vegetables and sauce", "Bake for 40 minutes"],
+      "nutrition": {"calories": 500, "protein": 20, "carbs": 60, "fat": 22},
+      "type": "veg",
+      "healthy_alternative": "Use low-fat cheese and whole wheat sheets"
+    },
+    {
+      "name": "Grilled Fish",
+      "ingredients": ["fish", "lemon", "garlic", "olive oil", "spices"],
+      "steps": ["Marinate fish with lemon, garlic, and spices", "Grill for 10-12 minutes", "Serve hot"],
+      "nutrition": {"calories": 350, "protein": 30, "carbs": 0, "fat": 18},
+      "type": "non-veg",
+      "healthy_alternative": "Serve with steamed vegetables instead of rice"
+    },
+    {
+      "name": "Minestrone Soup",
+      "ingredients": ["carrot", "beans", "tomato", "pasta", "vegetable broth", "onion"],
+      "steps": ["Chop vegetables", "Cook vegetables in broth", "Add pasta and simmer", "Serve hot"],
+      "nutrition": {"calories": 200, "protein": 8, "carbs": 30, "fat": 5},
+      "type": "veg",
+      "healthy_alternative": "Use whole wheat pasta"
+    },
+    {
+      "name": "Chicken Quesadilla",
+      "ingredients": ["chicken", "cheese", "tortilla", "onion", "bell pepper"],
+      "steps": ["Cook chicken and vegetables", "Place chicken and cheese in tortilla", "Cook until golden brown", "Serve hot"],
+      "nutrition": {"calories": 450, "protein": 30, "carbs": 35, "fat": 20},
+      "type": "non-veg",
+      "healthy_alternative": "Use whole wheat tortilla and low-fat cheese"
+    },
+    {
+      "name": "Caprese Salad",
+      "ingredients": ["tomato", "mozzarella", "basil", "olive oil", "balsamic vinegar"],
+      "steps": ["Slice tomato and mozzarella", "Layer with basil leaves", "Drizzle olive oil and balsamic vinegar"],
+      "nutrition": {"calories": 220, "protein": 10, "carbs": 5, "fat": 18},
+      "type": "veg",
+      "healthy_alternative": "Use less olive oil"
+    },
+    {
+      "name": "Shrimp Fried Rice",
+      "ingredients": ["rice", "shrimp", "egg", "peas", "carrot", "soy sauce"],
+      "steps": ["Cook rice", "Scramble eggs", "Stir fry shrimp and vegetables", "Mix with rice and soy sauce"],
+      "nutrition": {"calories": 450, "protein": 30, "carbs": 60, "fat": 12},
+      "type": "non-veg",
+      "healthy_alternative": "Use brown rice and less oil"
+    },
+    {
+      "name": "Stuffed Bell Peppers",
+      "ingredients": ["bell peppers", "rice", "vegetables", "cheese", "spices"],
+      "steps": ["Prepare rice and vegetables", "Stuff bell peppers with mixture", "Top with cheese and bake for 20 minutes"],
+      "nutrition": {"calories": 350, "protein": 12, "carbs": 45, "fat": 15},
+      "type": "veg",
+      "healthy_alternative": "Use less cheese and brown rice"
+    },
+    {
+      "name": "Chicken Noodle Soup",
+      "ingredients": ["chicken", "noodles", "carrot", "celery", "onion", "chicken broth"],
+      "steps": ["Cook chicken in broth", "Add vegetables and noodles", "Simmer until cooked"],
+      "nutrition": {"calories": 300, "protein": 25, "carbs": 30, "fat": 10},
+      "type": "non-veg",
+      "healthy_alternative": "Use whole wheat noodles and less oil"
+    },
+    {
+      "name": "Avocado Toast",
+      "ingredients": ["bread", "avocado", "lemon", "salt", "pepper"],
+      "steps": ["Toast bread", "Mash avocado with lemon, salt, and pepper", "Spread on toast and serve"],
+      "nutrition": {"calories": 220, "protein": 5, "carbs": 25, "fat": 12},
+      "type": "veg",
+      "healthy_alternative": "Use whole grain bread and less salt"
+    },
+    {
+      "name": "Grilled Lamb Chops",
+      "ingredients": ["lamb chops", "garlic", "rosemary", "olive oil", "salt", "pepper"],
+      "steps": ["Marinate lamb with garlic, rosemary, salt, and pepper", "Grill for 10-12 minutes", "Serve hot"],
+      "nutrition": {"calories": 500, "protein": 40, "carbs": 0, "fat": 35},
+      "type": "non-veg",
+      "healthy_alternative": "Trim excess fat before cooking"
+    },
+    {
+      "name": "Prawn Stir Fry",
+      "ingredients": ["prawns", "bell pepper", "onion", "garlic", "soy sauce", "olive oil"],
+      "steps": ["Sauté garlic and onion", "Add prawns and vegetables", "Add soy sauce and cook until done", "Serve"],
+      "nutrition": {"calories": 350, "protein": 30, "carbs": 10, "fat": 18},
+      "type": "non-veg",
+      "healthy_alternative": "Use less oil and serve with brown rice"
+    },
+    {
+      "name": "Falafel Wrap",
+      "ingredients": ["falafel", "tortilla", "lettuce", "tomato", "yogurt sauce"],
+      "steps": ["Cook falafel", "Assemble wrap with vegetables and sauce", "Serve"],
+      "nutrition": {"calories": 350, "protein": 12, "carbs": 40, "fat": 15},
+      "type": "veg",
+      "healthy_alternative": "Use whole wheat tortilla and light sauce"
+    },
+    {
+      "name": "Sweet Potato Fries",
+      "ingredients": ["sweet potato", "olive oil", "salt", "pepper"],
+      "steps": ["Cut sweet potatoes into fries", "Toss with olive oil, salt, and pepper", "Bake for 20-25 minutes", "Serve"],
+      "nutrition": {"calories": 200, "protein": 2, "carbs": 30, "fat": 8},
+      "type": "veg",
+      "healthy_alternative": "Use minimal oil and bake instead of fry"
+    },
+    {
+      "name": "Salmon Teriyaki",
+      "ingredients": ["salmon", "soy sauce", "honey", "garlic", "ginger"],
+      "steps": ["Marinate salmon with sauce, garlic, and ginger", "Grill for 10-12 minutes", "Serve with vegetables"],
+      "nutrition": {"calories": 400, "protein": 35, "carbs": 10, "fat": 20},
+      "type": "non-veg",
+      "healthy_alternative": "Use less honey and serve with steamed vegetables"
+    },
+    {
+      "name": "Caesar Salad",
+      "ingredients": ["romaine lettuce", "croutons", "parmesan cheese", "caesar dressing", "chicken"],
+      "steps": ["Chop lettuce", "Add chicken and croutons", "Toss with caesar dressing", "Top with parmesan"],
+      "nutrition": {"calories": 380, "protein": 25, "carbs": 15, "fat": 25},
+      "type": "non-veg",
+      "healthy_alternative": "Use grilled chicken and light dressing"
+    },
+    {
+      "name": "Tomato Basil Pasta",
+      "ingredients": ["pasta", "tomato", "basil", "garlic", "olive oil", "parmesan"],
+      "steps": ["Cook pasta", "Sauté garlic in olive oil", "Add tomatoes and basil", "Toss with pasta and parmesan"],
+      "nutrition": {"calories": 420, "protein": 14, "carbs": 65, "fat": 14},
+      "type": "veg",
+      "healthy_alternative": "Use whole wheat pasta and less cheese"
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "ingredients": ["chicken", "yogurt", "tomato", "cream", "spices", "garlic"],
+      "steps": ["Marinate chicken in yogurt and spices", "Grill chicken", "Prepare tomato cream sauce", "Combine and serve"],
+      "nutrition": {"calories": 480, "protein": 32, "carbs": 12, "fat": 32},
+      "type": "non-veg",
+      "healthy_alternative": "Use less cream and light yogurt"
+    },
+    {
+      "name": "Black Bean Tacos",
+      "ingredients": ["black beans", "taco shells", "lettuce", "tomato", "cheese", "avocado"],
+      "steps": ["Heat black beans with spices", "Warm taco shells", "Assemble with beans and toppings"],
+      "nutrition": {"calories": 350, "protein": 15, "carbs": 45, "fat": 12},
+      "type": "veg",
+      "healthy_alternative": "Use whole wheat shells and skip cheese"
+    },
+    {
+      "name": "Thai Green Curry",
+      "ingredients": ["chicken", "coconut milk", "green curry paste", "vegetables", "basil"],
+      "steps": ["Cook curry paste", "Add chicken and coconut milk", "Add vegetables", "Simmer and serve"],
+      "nutrition": {"calories": 450, "protein": 28, "carbs": 15, "fat": 30},
+      "type": "non-veg",
+      "healthy_alternative": "Use light coconut milk and more vegetables"
+    },
+    {
+      "name": "Margherita Pizza",
+      "ingredients": ["pizza dough", "tomato sauce", "mozzarella", "basil", "olive oil"],
+      "steps": ["Roll out dough", "Add sauce and cheese", "Bake until golden", "Top with basil"],
+      "nutrition": {"calories": 500, "protein": 18, "carbs": 60, "fat": 20},
+      "type": "veg",
+      "healthy_alternative": "Use whole wheat dough and low-fat cheese"
+    },
+    {
+      "name": "Chicken Fajitas",
+      "ingredients": ["chicken", "bell peppers", "onion", "tortillas", "spices", "lime"],
+      "steps": ["Sauté chicken with spices", "Add peppers and onions", "Serve with warm tortillas"],
+      "nutrition": {"calories": 420, "protein": 32, "carbs": 38, "fat": 16},
+      "type": "non-veg",
+      "healthy_alternative": "Use whole wheat tortillas and less oil"
+    },
+    {
+      "name": "Lentil Soup",
+      "ingredients": ["lentils", "carrot", "celery", "onion", "tomato", "vegetable broth"],
+      "steps": ["Sauté vegetables", "Add lentils and broth", "Simmer until lentils are tender"],
+      "nutrition": {"calories": 280, "protein": 16, "carbs": 45, "fat": 4},
+      "type": "veg",
+      "healthy_alternative": "Use minimal oil"
+    },
+    {
+      "name": "Teriyaki Chicken Bowl",
+      "ingredients": ["chicken", "rice", "broccoli", "carrot", "teriyaki sauce", "sesame seeds"],
+      "steps": ["Cook rice", "Grill chicken with teriyaki sauce", "Steam vegetables", "Assemble bowl"],
+      "nutrition": {"calories": 480, "protein": 35, "carbs": 55, "fat": 12},
+      "type": "non-veg",
+      "healthy_alternative": "Use brown rice and less sauce"
+    },
+    {
+      "name": "Eggplant Parmesan",
+      "ingredients": ["eggplant", "tomato sauce", "mozzarella", "parmesan", "breadcrumbs"],
+      "steps": ["Slice and bread eggplant", "Bake until golden", "Layer with sauce and cheese", "Bake until bubbly"],
+      "nutrition": {"calories": 420, "protein": 18, "carbs": 38, "fat": 22},
+      "type": "veg",
+      "healthy_alternative": "Bake instead of fry and use low-fat cheese"
+    },
+    {
+      "name": "Pad Thai",
+      "ingredients": ["rice noodles", "shrimp", "egg", "peanuts", "bean sprouts", "lime"],
+      "steps": ["Soak noodles", "Stir fry shrimp and egg", "Add noodles and sauce", "Top with peanuts"],
+      "nutrition": {"calories": 520, "protein": 28, "carbs": 65, "fat": 18},
+      "type": "non-veg",
+      "healthy_alternative": "Use less oil and more vegetables"
+    },
+    {
+      "name": "Shakshuka",
+      "ingredients": ["eggs", "tomato", "bell pepper", "onion", "spices", "feta"],
+      "steps": ["Sauté peppers and onions", "Add tomatoes and spices", "Crack eggs into sauce", "Simmer until eggs set"],
+      "nutrition": {"calories": 320, "protein": 18, "carbs": 15, "fat": 20},
+      "type": "non-veg",
+      "healthy_alternative": "Use less oil and skip feta"
+    },
+    {
+      "name": "Vegetable Curry",
+      "ingredients": ["potato", "cauliflower", "peas", "carrot", "curry powder", "coconut milk"],
+      "steps": ["Sauté vegetables with curry powder", "Add coconut milk", "Simmer until tender"],
+      "nutrition": {"calories": 380, "protein": 10, "carbs": 45, "fat": 18},
+      "type": "veg",
+      "healthy_alternative": "Use light coconut milk"
+    },
+    {
+      "name": "BBQ Chicken Wings",
+      "ingredients": ["chicken wings", "bbq sauce", "honey", "garlic", "spices"],
+      "steps": ["Marinate wings in sauce", "Bake until crispy", "Toss with extra sauce"],
+      "nutrition": {"calories": 480, "protein": 32, "carbs": 18, "fat": 30},
+      "type": "non-veg",
+      "healthy_alternative": "Bake instead of fry and use less sauce"
+    },
+    {
+      "name": "Ratatouille",
+      "ingredients": ["eggplant", "zucchini", "tomato", "bell pepper", "onion", "herbs"],
+      "steps": ["Slice vegetables thinly", "Layer in baking dish", "Bake with herbs and olive oil"],
+      "nutrition": {"calories": 220, "protein": 6, "carbs": 30, "fat": 10},
+      "type": "veg",
+      "healthy_alternative": "Use minimal olive oil"
+    }
+]
+
+
+
