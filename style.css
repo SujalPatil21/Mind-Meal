@@ -53,30 +53,25 @@ body.dark-mode .navbar {
     align-items: center;
     gap: 8px;
 }
+
 .logo {
     margin: 0;
     color: #1d1d1f;
     font-size: 24px;
     font-weight: 600;
     letter-spacing: -0.5px;
-
     display: flex;
-    align-items: center;   /* fixes vertical alignment */
-    gap: 12px;             /* spacing between icon and text */
+    align-items: center;
+    gap: 12px;
 }
 
 .nav-logo-icon {
-    height: 34px;       /* bigger icon */
+    height: 34px;
     width: auto;
     display: block;
     object-fit: contain;
-    transform: translateY(1px); 
-    body.dark-mode .nav-logo-icon {
-    content: url("images/small_icon_black.png");
+    transform: translateY(1px);
 }
- /* perfect vertical alignment tweak */
-}
-
 
 body.dark-mode .logo {
     color: #f5f5f7;
@@ -231,6 +226,7 @@ body.dark-mode .hint {
 
 .hero-media {
     flex: 0 0 auto;
+    perspective: 1000px;
 }
 
 .hero-media img {
@@ -239,6 +235,22 @@ body.dark-mode .hint {
     object-fit: cover;
     border-radius: 24px;
     box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+    animation: heroFade 0.8s ease-out forwards;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    will-change: transform;
+}
+
+@keyframes heroFade {
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.hero-media img.hover-3d {
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
 }
 
 body.dark-mode .hero-media img {
@@ -312,6 +324,39 @@ body.dark-mode .feature:hover {
 
 body.dark-mode .feature p {
     color: #a1a1a6;
+}
+
+/* ============================================
+   ⭐ UNIFIED BLUE STYLE FOR ALL FEATURE CARDS
+================================================*/
+
+#filterVeg,
+#filterNonVeg,
+#pantryList,
+#healthySwaps {
+    border-left: 5px solid #0a84ff;
+}
+
+#filterVeg:hover,
+#filterNonVeg:hover,
+#pantryList:hover,
+#healthySwaps:hover {
+    box-shadow: 0 20px 40px rgba(10, 132, 255, 0.25);
+    transform: translateY(-4px);
+}
+
+body.dark-mode #filterVeg,
+body.dark-mode #filterNonVeg,
+body.dark-mode #pantryList,
+body.dark-mode #healthySwaps {
+    border-left: 5px solid #0a84ff;
+}
+
+body.dark-mode #filterVeg:hover,
+body.dark-mode #filterNonVeg:hover,
+body.dark-mode #pantryList:hover,
+body.dark-mode #healthySwaps:hover {
+    box-shadow: 0 20px 40px rgba(10, 132, 255, 0.45);
 }
 
 /* --------------------------------------------------
@@ -553,6 +598,66 @@ body.dark-mode .modal-body li {
 }
 
 /* --------------------------------------------------
+   PANTRY MODAL & CARD
+-------------------------------------------------- */
+
+.pantry-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    animation: fadeIn 0.35s ease;
+}
+
+body.dark-mode .pantry-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pantry-card h4 {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#pantryItems {
+    padding-left: 20px;
+    margin: 0;
+}
+
+#pantryItems li {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    color: #6e6e73;
+}
+
+body.dark-mode #pantryItems li {
+    color: #a1a1a6;
+}
+
+#downloadPantryBtn {
+    width: 100%;
+    margin-top: 24px;
+}
+
+/* --------------------------------------------------
+   HEALTHY SWAPS
+-------------------------------------------------- */
+
+#healthySwapItems li {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    color: #6e6e73;
+}
+
+body.dark-mode #healthySwapItems li {
+    color: #a1a1a6;
+}
+
+/* --------------------------------------------------
    FOOTER - iOS 17 Style
 -------------------------------------------------- */
 .footer {
@@ -583,55 +688,23 @@ body.dark-mode .footer {
     .hero-content h2 {
         font-size: 36px;
     }
-.hero-media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hero-media {
-    width: 100%;
-    max-width: 480px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hero-media img {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 24px;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
 
-    /* 🔥 Animation (desktop) */
-    opacity: 0;
-    transform: translateY(20px) scale(0.95);
-    animation: heroFade 0.8s ease-out forwards;
-}
-
-@keyframes heroFade {
-    to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
+    .hero-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 480px;
+        padding: 20px;
     }
-}
-/* 3D Hover Effect */
-.hero-media {
-    perspective: 1000px;
-}
 
-.hero-media img {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    will-change: transform;
-}
-
-.hero-media img.hover-3d {
-    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
-}
-
-
-
-
+    .hero-media img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 24px;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+    }
 
     .search-row {
         flex-direction: column;
@@ -667,148 +740,4 @@ body.dark-mode .footer {
     .recipes-grid {
         grid-template-columns: 1fr;
     }
-}
-/* ==================================================
-   ⭐ NEW — PANTRY MODAL & CARD (iOS style matching)
-   (Only additive, no changes to existing code)
-================================================== */
-
-/* Pantry Modal uses the same .modal + .modal-card styles already defined */
-
-/* Pantry Card Container */
-.pantry-card {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 16px;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    margin-top: 20px;
-    animation: fadeIn 0.35s ease;
-}
-
-body.dark-mode .pantry-card {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Pantry Title */
-.pantry-card h4 {
-    margin: 0 0 12px 0;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-/* Pantry List */
-#pantryItems {
-    padding-left: 20px;
-    margin: 0;
-}
-
-#pantryItems li {
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 8px;
-    color: #6e6e73;
-}
-
-body.dark-mode #pantryItems li {
-    color: #a1a1a6;
-}
-
-/* Pantry Download Button */
-#downloadPantryBtn {
-    width: 100%;
-    margin-top: 24px;
-}
-/* Floating Up-Down Animation */
-@keyframes floatUpDown {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-12px); }
-    100% { transform: translateY(0px); }
-}
-
-.hero-media img {
-    animation: floatUpDown 4s ease-in-out infinite;
-}
-/* Healthy Swap Card (uses pantry styling) */
-#healthySwapItems li {
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 8px;
-    color: #6e6e73;
-}
-
-body.dark-mode #healthySwapItems li {
-    color: #a1a1a6;
-}
-/* ============================================
-   ⭐ UNIFIED BLUE STYLE FOR ALL FEATURE CARDS
-   (Veg, Non-Veg, Pantry, Healthy Swaps)
-===============================================*/
-
-/* Apply blue left border to all four */
-#filterVeg,
-#filterNonVeg,
-#pantryList,
-#healthySwaps {
-    border-left: 5px solid #0a84ff;
-}
-
-/* Hover effect for all */
-#filterVeg:hover,
-#filterNonVeg:hover,
-#pantryList:hover,
-#healthySwaps:hover {
-    box-shadow: 0 20px 40px rgba(10, 132, 255, 0.25);
-    transform: translateY(-4px);
-}
-
-/* Dark mode */
-body.dark-mode #filterVeg,
-body.dark-mode #filterNonVeg,
-body.dark-mode #pantryList,
-body.dark-mode #healthySwaps {
-    border-left: 5px solid #0a84ff;
-}
-
-body.dark-mode #filterVeg:hover,
-body.dark-mode #filterNonVeg:hover,
-body.dark-mode #pantryList:hover,
-body.dark-mode #healthySwaps:hover {
-    box-shadow: 0 20px 40px rgba(10, 132, 255, 0.45);
-}
-
-/* ============================================
-   ⭐ BLUE ACCENT FOR PANTRY & HEALTHY SWAPS
-   (Matches iOS blue highlight + feature style)
-===============================================*/
-
-/* Pantry List */
-#pantryList {
-    border-left: 5px solid #0a84ff; /* iOS blue */
-}
-
-#pantryList:hover {
-    box-shadow: 0 20px 40px rgba(10, 132, 255, 0.25);
-    transform: translateY(-4px);
-}
-
-/* Healthy Swaps */
-#healthySwaps {
-    border-left: 5px solid #0a84ff; /* iOS blue */
-}
-
-#healthySwaps:hover {
-    box-shadow: 0 20px 40px rgba(10, 132, 255, 0.25);
-    transform: translateY(-4px);
-}
-
-/* Dark Mode variants */
-body.dark-mode #pantryList,
-body.dark-mode #healthySwaps {
-    border-left: 5px solid #0a84ff;  
-}
-
-body.dark-mode #pantryList:hover,
-body.dark-mode #healthySwaps:hover {
-    box-shadow: 0 20px 40px rgba(10, 132, 255, 0.45);
 }
