@@ -25,7 +25,7 @@ RECIPES_FILE = os.path.join(BASE_DIR, "recipes.json")
 PANTRY_FILE = os.path.join(BASE_DIR, "pantry.json")
 
 # GitHub Pages placeholder image
-LOCAL_PLACEHOLDER = "https://sujalpatil21.github.io/Meal-Mind/docs/images/placeholder.png"
+LOCAL_PLACEHOLDER = "https://sujalpatil21.github.io/Meal-Mind/docs/images/Placeholder.png"
 
 # Create pantry file if missing
 if not os.path.exists(PANTRY_FILE):
