@@ -11,11 +11,6 @@ It generates realistic food images using an AI image API, maintains a smart pant
 
 ---
 
----
-
-
-
-
 ## ⭐ Features
  
 ### 🔍 Smart Recipe Suggestions
