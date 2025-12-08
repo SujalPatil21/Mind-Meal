@@ -45,7 +45,7 @@ const searchedIngredientSpan = document.getElementById("searchedIngredient");
 
 
 // Backend URL
-const BASE_URL = "https://mind-meal.onrender.com";
+const BASE_URL = "https://meal-mind-5n51.onrender.com";
 
 
 /* ======================================================
