@@ -8,7 +8,7 @@
 const inputIngredients = document.getElementById("ingredientsInput");
 const recipesGrid = document.getElementById("recipesGrid");
 const generateBtn = document.getElementById("generateBtn");
-
+    
 // Modal elements
 const modal = document.getElementById("recipeModal");
 const modalImg = document.getElementById("modalImg");
