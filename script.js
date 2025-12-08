@@ -253,7 +253,7 @@ function attachModalHandlers(recipesData) {
             const recipe = recipesData.find(r => r.name === btn.dataset.name);
             if (!recipe) return;
 
-            let imageUrl = "images/placeholder.png";
+            let imageUrl = "images/Placeholder.png";
             modalImg.src = "";
 
             try {
