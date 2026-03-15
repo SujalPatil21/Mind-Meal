@@ -19,6 +19,10 @@ Live Demo: https://sujalpatil21.github.io/Mind-Meal/
 
 ---
 
+## Backend Deployment (Render)
+
+Link : https://meal-mind-5n51.onrender.com
+
 ## Features
 
 ### Smart Recipe Suggestions
