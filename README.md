@@ -6,7 +6,7 @@ It generates realistic food images using an AI image API, maintains a smart pant
 ---
 
 ## Project Video
-
+ 
 [![Project Demo](Project.png)](https://www.youtube.com/watch?v=sTBTgqAxueU)
 
 ---
